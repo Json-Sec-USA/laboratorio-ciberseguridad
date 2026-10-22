@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Paquetes completos con temas oficiales y herramientas solicitadas
 RUN apt-get update && apt-get install -y \
     kali-linux-core \
-    kali-tools-top10 \
+    kali-linux-default \
     kali-desktop-xfce \
     kali-themes \
     kali-wallpapers-2024 \
